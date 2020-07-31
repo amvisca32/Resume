@@ -1,0 +1,216 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Adrianna Visca
+% Version 1.0 (7/30/2020)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Adrianna}{Visca}{ Seeking full-time employment in the field of Computing Security.\\
+585.721.8186 | \href{mailto:axv4486@rit.edu}{axv4486@rit.edu}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Rochester Institute\\ of Technology}
+\descript{BS in Computing Security}
+\location{Rochester, NY\\Expected December 2020}
+\location{ Cum. GPA: 3.57 / 4.0 }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/amvisca32}{\bf amvisca32} \\
+LinkedIn://  \href{https://www.linkedin.com/in/adriannavisca/}{\bf adriannavisca} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+\textbullet{} Cyber Defense Techniques \\
+\textbullet{} Principles of Web Application Security \\
+\textbullet{} Authentication and Security Models \\
+\textbullet{} Reverse Engineering Fundamentals \\
+\textbullet{} Network and System Security Audit \\
+\textbullet{} Introduction to Cryptography \\
+\textbullet{} Computer System Forensics \\
+\textbullet{} Virtualization \\
+\textbullet{} Intro to Database and Data Modeling \\
+\textbullet{} Task Automation Using Interpretive Languages \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+\subsection{Soft}
+Leadership \textbullet{} Communication \textbullet{} Public Speaking \textbullet{} Teamwork \textbullet{} Adaptability \textbullet{} Work Ethic \textbullet{} Openness to Feedback 
+\sectionsep
+
+\subsection{Programming}
+\location{Over 5000 lines:}
+Python \textbullet{} Shell \textbullet{} Java \textbullet{} Bash \\
+\location{Over 1000 lines:}
+C \textbullet{} C# \textbullet{} PHP \textbullet{} Assembly \textbullet{} MySQL \textbullet{} \LaTeX\ \\
+\location{Familiar:}
+\textbullet{} Android \textbullet{} CSS
+\sectionsep
+
+\subsection{Software}
+Wireshark \textbullet{} BurpSuite \textbullet{} Splunk \textbullet{} Spiderfoot \textbullet{} Visual Studio Code \textbullet{} PuTTY \textbullet{} FTK Imager \textbullet{} Nessus \textbullet{} Dirbuster
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CONFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conferences}
+
+\textbullet{} Women in Cyber Security (WiCyS) 2019 \\
+\textbullet{} Shmoocon 2020 \\
+\textbullet{} Virtual Women in Cyber Security (WiCyS) 2020 \\
+\textbullet{} SIG Women's Discovery Day 2019
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Cisco}
+\descript{| Assessment and Penetration Consulting Engineer Intern }
+\location{May 2020 - August 2020 | Remote}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Worked on a team to create a SpiderFoot OSINT Automation Script.
+\item Performed daily training involving penetration testing and vulnerability assessment tools. 
+\item Gained experience writing and presenting penetration testing reports. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{The TJX Companies}
+\descript{| Security and Compliance IT Engineering Intern }
+\location{May 2019 – August 2019 | Marlborough, MA}
+\begin{tightemize}
+\item Primarily worked with Splunk dealing with analyzing malicious data and creating dashboards and queries on my findings.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{OSINT Automated}
+\descript{| SpiderFoot}
+Python script completely automating the process of using \textbf{\href{https://www.spiderfoot.net/documentation/}{SpiderFoot}} to compose a digital profile of a company's publicly exposed data that can be assembled from the internet. 
+
+\runsubsection{Mapping Optimal Probe Sites with Regard to Brainjacking}
+\descript{| Proposed Study}
+Proposed study looking at user data to find which locations on the human head are optimal for Transcranial Direct Current Stimulation (TDCS). \textbf{\href{https://github.com/amvisca32/Brainjacking-Study}{Github}}
+
+\runsubsection{Stegosaurus}
+\descript{| A Steganography Tool}
+Python steganography tool incorporating hashing and RGB values to hide data in images. \textbf{\href{https://github.com/amvisca32/stegosaurus}{Github}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LEADERSHIP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Leadership}
+\runsubsection{RITSEC: Cybersecurity Club}
+\descript{| Director of Public Relations}
+\location{April 2019 - May 2020}
+\textbf{\href{https://www.ritsec.club/}{RITSEC}} is a student-run organization dedicated to educating and preparing RIT students to compete in security competitions and obtain security-related jobs. 
+
+\runsubsection{WiCyS: Women in CyberSecurity at RIT}
+\descript{| Vice President, Secretary}
+\location{March 2019 - May 2020, May 2020 - Present}
+\textbf{\href{https://wicysrit.weebly.com/}{RIT's WiCyS Student Chapter}} is an affiliate chapter to the National Women in CyberSecurity (WiCyS) organization. 
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COMPETITIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Competitions and Awards} 
+\begin{tabular}{rll}
+2017	 & Winner  & WicHacks Hackathon\\
+2017     & Upstate NY Winner  & NCWIT Aspirations in Computing Award \\
+2019	 & Blue Team  & RITSEC ISTS\\
+2019	 & White Team  & RITSEC IRSeC\\
+2019     & Challenge Author & RITSEC Capture the Flag  \\
+2020     & Black Team & RITSEC ISTS \\
+2020     & Black Team & RITSEC IRSeC \\
+2020     & Participant & Trace Labs Global OSINT CTF
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
